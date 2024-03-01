@@ -1,8 +1,49 @@
 body {
-
-h1, h2 {
-
-    color: rgb(rgb(143, 65, 65), green, blue);
+ background-color: rgb(129, 219, 177);
 }
 
+.col{
+width: 33.3%;
+background-color: blueviolet;
+float: left;
+}
+.col1{
+width: 50%;
+background-color: blueviolet;
+float: left;
+}
+
+.col2{
+width:5%;
+background-color: blueviolet;
+float: left;
+}
+.col4{
+width:15%;
+background-color: blueviolet;
+float: left;
+}
+.img-responsive {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: blueviolet;
+
+}
+
+
+.rounded {
+
+    border-radius: 500px 234px 90px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
 }
